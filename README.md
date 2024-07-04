@@ -37,7 +37,10 @@ sudo apt install git
 ```
 sudo apt install -y build-essential clang libc6-dev libcurl4 libssl-dev
 ```
-
+### Install Screen
+```
+sudo apt install screen -y
+```
 
 ## Install Rust 
 Reply with ```y``` and continue 
