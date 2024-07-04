@@ -2,6 +2,8 @@
 Prior testnets have shown that while consumer-grade hardware can technically participate as a prover, it is unlikely to be effective due to high level of competition.
 
 
+In this guide, i am using Contabo  ---    https://contabo.com/en/vps/ 
+![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/e87f8701-549e-4003-a99e-49c2f1acdb3b)
 
 
 
@@ -90,15 +92,21 @@ cargo install --locked --path .
 sudo ufw allow 4130/tcp
 sudo ufw allow 3030/tcp
 sudo ufw allow ssh
-sudo ufw enable
+sudo ufw enable -y
 sudo ufw status
 ```
 ![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/e56401ec-12a7-4c5c-a42c-9ae9dca34075)
 
 
 
-## Run ALEO Node
-### Run CLient before PROVER! 
+## Run ALEO Prover 
+
+## Generate ALEO Account
+### Save account details 
+```
+snarkos account new 
+```
+
 
 ### Open Screen 
 ```
@@ -108,20 +116,20 @@ screen -S client
 
 
 
+
+## Run Prover 
+### Paste private key previously copied 
 ```
-./run-client.sh
+cd $HOME && cd snarkOS
+./run-prover.sh --network 1
 ```
-![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/d3b82fb0-0139-412c-a95a-b6e5707ca5ac)
+![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/5da518f5-199d-41ec-b131-1b3456dcf5a5)
 
 
 
 
-
-
-
-
-### COMPILING
-
+DONE!!!
+![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/d276229f-8aed-4885-bd6b-b493e497e064)
 
 
 
