@@ -1,6 +1,8 @@
 # Aleo-Testnet-Beta-Guide
 Prior testnets have shown that while consumer-grade hardware can technically participate as a prover, it is unlikely to be effective due to high level of competition.
+Minimum 1000 credit required to be eligible.
 
+![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/3870e046-be80-4698-8771-727eadebaf58)
 
 In this guide, i am using Contabo  ---    https://contabo.com/en/vps/ 
 ![image](https://github.com/mztacat/Aleo-Testnet-Beta-Guide/assets/31314340/e87f8701-549e-4003-a99e-49c2f1acdb3b)
