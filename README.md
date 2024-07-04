@@ -33,6 +33,12 @@ Reply with ```y``` and continue
 sudo apt install git
 ```
 
+### Install Build tool
+```
+sudo apt install -y build-essential clang libc6-dev libcurl4 libssl-dev
+```
+
+
 ## Install Rust 
 Reply with ```y``` and continue 
 ```
